@@ -15,9 +15,6 @@ function Footer() {
               className="social-icon"
             />
           </a>
-          <a href="https://www.instagram.com/jamesdoesmarketing/">
-            <img src="instagram-symbol.png" className="social-icon" />
-          </a>
         </div>
         <p>
           Portfolio Forge | James Alderman © 2024 | Part of The Alderman

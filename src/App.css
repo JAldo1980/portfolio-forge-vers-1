@@ -50,6 +50,12 @@ h4.book-call-btn {
   border-radius: 8px;
 }
 
+.star-style::after {
+  content: "⭐";
+  display: inline-block;
+  margin-left: 5px;
+}
+
 /* ******************** */
 /* MOBILE NAV CONTAINER */
 /* ******************** */
@@ -144,22 +150,84 @@ h4.book-call-btn {
 }
 
 /* ****************** */
-/* ENDORSMENT SECTION */
+/* RESOURCES SECTION */
 /* ****************** */
 
-.endorsement-container {
+.resources-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
   max-width: 1140px;
   margin: 0 auto;
   padding-top: 1em;
 }
 
-.endorsement-container h2 {
+.resources-headline {
+  font-size: 3rem;
+
+  position: relative;
+}
+
+.resources-container h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 20%;
+  height: 5px;
+  background-color: white;
+}
+
+.resources-card {
+  margin-top: 1em;
+  display: flex;
+  gap: 3em;
+}
+
+.resources-img {
+  width: 15%;
+  height: auto;
+  border-radius: 20px;
+  border: none;
+}
+
+.resources-text h4 {
+  font-size: 2rem;
+}
+
+.resources-text p {
+  font-size: 1rem;
+}
+
+.resources-text h4 span {
+  font-size: 1rem;
+}
+
+.resources-btn-link {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ****************** */
+/* TEMPLATE SECTION */
+/* ****************** */
+
+.template-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.template-container h2 {
   font-size: 2.5rem;
   color: var(--quote-color);
   position: relative;
 }
 
-.endorsement-container h2::after {
+.template-container h2::after {
   content: "";
   position: absolute;
   left: 0;
@@ -173,20 +241,22 @@ h4.book-call-btn {
 /* RESULTS */
 /* ******* */
 
-.results-container {
+.endorsement-container {
   max-width: 1140px;
   margin: 0 auto 2em auto;
 }
 
-.results-headline {
+.endorsement-headline {
   font-size: 2.5rem;
 }
 
-.results-container h2 {
+.endorsement-container h2 {
   position: relative;
+  font-size: 2.5rem;
+  color: var(--quote-color);
 }
 
-.results-container h2::after {
+.endorsement-container h2::after {
   content: "";
   position: absolute;
   left: 0;
@@ -196,7 +266,7 @@ h4.book-call-btn {
   background-color: white;
 }
 
-.result-detail {
+.endorsement-detail {
   margin-top: 2em;
   background-color: white;
   padding: 0.5em;
@@ -206,15 +276,16 @@ h4.book-call-btn {
 }
 
 /* **************** */
-/* BENEFITS SECTION */
+/* COURSE SECTION */
 /* **************** */
 
-.benefits-container h2 {
+.course-container h2 {
   font-size: 2.5rem;
+  color: var(--quote-color);
   position: relative;
 }
 
-.benefits-container h2::after {
+.course-container h2::after {
   content: "";
   position: absolute;
   left: 0;
@@ -224,21 +295,23 @@ h4.book-call-btn {
   background-color: white;
 }
 
-.benefits-container {
+.course-container {
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
-.benefit-card {
+.course-card {
   margin-top: 1em;
 }
 
-.benefit-card h3 {
+.course-card h3,
+p {
   font-size: 1.2rem;
+  color: var(--quote-color);
 }
-.benefit-card p {
+.course-card p {
   margin-top: 0.5em;
 }
 

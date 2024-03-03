@@ -4,7 +4,7 @@ import React from "react";
 function TemplateInfo() {
   return (
     <>
-      <div className="endorsement-container">
+      <div className="template-container">
         <h2>Portfolio Templates</h2>
         {/* THIS AREA NEED TO BE POPULATED */}
       </div>

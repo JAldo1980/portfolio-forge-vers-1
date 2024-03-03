@@ -13,6 +13,14 @@ function Nav() {
 
         <div className="nav-items">
           <Link
+            to="resources" // Replace "about" with the actual ID of your About component
+            smooth={true}
+            duration={500}
+          >
+            <h4 className="star-style">FREE Resources</h4>
+          </Link>
+
+          <Link
             to="results" // Replace "impact" with the actual ID of your Impact component
             smooth={true}
             duration={500}
@@ -53,9 +61,6 @@ function Nav() {
               alt="social-media-icon"
               className="social-icon"
             />
-          </a>
-          <a href="https://www.instagram.com/jamesdoesmarketing/">
-            <img src="instagram-symbol.png" className="social-icon" />
           </a>
         </div>
       </div>

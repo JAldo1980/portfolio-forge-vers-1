@@ -5,9 +5,10 @@ import Nav from "./components/Nav";
 import MobileNav from "./components/MobileNav";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Resources from "./components/Resources";
 import TemplateInfo from "./components/TemplateInfo";
 import CourseIntro from "./components/CourseIntro";
-import Results from "./components/Results";
+import Endorsements from "./components/Endorsements";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -27,14 +28,17 @@ function App() {
         <About />
       </ContainerTwo>
       <Container>
-        <CourseIntro />
+        <Resources />
       </Container>
       <ContainerTwo>
-        <TemplateInfo />
+        <CourseIntro />
       </ContainerTwo>
       <Container>
-        <Results />
+        <TemplateInfo />
       </Container>
+      <ContainerTwo>
+        <Endorsements />
+      </ContainerTwo>
       <Container>
         <Faq />
         <Contact />

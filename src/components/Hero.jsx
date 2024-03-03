@@ -10,7 +10,8 @@ function Hero() {
         <div className="subheader">
           <h3>
             Transforming careers and shaping your future. Passionate about
-            building high-performing digital marketing portfolios.
+            building high-performing digital marketing and frontend developer
+            portfolios.
           </h3>
         </div>
       </div>

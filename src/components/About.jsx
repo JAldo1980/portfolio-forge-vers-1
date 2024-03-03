@@ -9,29 +9,29 @@ function About() {
         <div className="about-inner-container">
           <div className="about-text-container">
             <p>
-              Deeply rooted in the realm of marketing, my focus lies in
-              empowering YOU, the digital marketer, to craft not just any
-              digital marketing portfolio but one that propels you above the
-              competition in this fiercely competitive market.
+              Deeply rooted in the realm of marketing, and a frontend developer,
+              my focus lies in empowering YOU, the digital or tech creator, to
+              craft not just any digital portfolio but one that propels you
+              above the competition in this fiercely competitive market.
             </p>
             <br />
             <p>
-              My mission is crystal clear: to guide and support digital
-              marketers in building the digital marketing portfolios you not
-              only want but, more crucially, NEED to establish a foothold in
-              marketing.
+              My mission is crystal clear: to guide and support you in building
+              the digital portfolios you not only want but, more crucially, NEED
+              to establish a foothold in your chosen field.
             </p>
             <br />
             <p>
-              As a dedicated advocate for career empowerment, I firmly believe
-              that as a digital marketer you need a portfolio to help you stand
-              out - and that's what I am going to help you do.
+              As a dedicated and expereinced advocate for career empowerment, I
+              firmly believe that as a marketer or developer you need a digital
+              portfolio as part of your arsenal to help you stand out - and
+              that's what I am going to help you do.
             </p>
             <br />
             <p>
               Join me in the pursuit of standing out, making your mark, and
               elevating your career in the ever-evolving world of digital
-              marketing.
+              marketing and tech.
             </p>
             <br />
             <p>Let's build!</p>
